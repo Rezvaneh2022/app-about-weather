@@ -21,7 +21,7 @@ export default function WeatherInfo(props) {
 
         <span className="temperatureSection">
           <strong id="temperature" className="weather-temperature">
-            {props.data.temperature}
+            {Math.round(props.data.temperature)}
           </strong>
           <span className="units">°C</span>
         </span>
@@ -39,7 +39,7 @@ export default function WeatherInfo(props) {
           </li>
 
           <li>
-            Wind: <span id="wind">{props.data.wind}</span> km/h
+            Wind: <span id="wind">{Math.round(props.data.wind)}</span> km/h
           </li>
         </ul>
       </div>
