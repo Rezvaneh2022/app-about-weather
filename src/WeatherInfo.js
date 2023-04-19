@@ -29,14 +29,13 @@ export default function WeatherInfo(props) {
 
         <ul>
           <li>
-            Description:
+            Description:{" "}
             <span id="Description" className="text-capitalize">
               {props.data.description}
             </span>
           </li>
           <li>
-            Humidity:
-            <span id="humidity">{props.data.humidity}</span>
+            Humidity: <span id="humidity">{props.data.humidity}</span>
           </li>
 
           <li>
