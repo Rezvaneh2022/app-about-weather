@@ -14,7 +14,7 @@ export default function App() {
             rel="noreferrer"
             className="gitLink"
           >
-            Open-source code
+            Open-source code{" "}
           </a>
           by Rezvaneh Hosseini
         </footer>
