@@ -1,11 +1,26 @@
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+    background-image: url("../src/media/background2.jpg") !important;
+    background-repeat: repeat !important;
+    background-size: cover;
+    display: block;
+    position: relative;
+    font-size: small;
+  }
+
+  .wholePage {
+    margin-left: 0px !important;
+  }
+}
+
 body {
-  margin-left: 350px;
+  margin: 0;
   background-image: url("../src/media/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   position: relative;
-  text-align: center;
   font-family: "Lora", serif;
 }
 h1 {
@@ -30,6 +45,10 @@ ul {
   border: 400px;
   max-width: 600px;
   min-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 26px;
+  padding: 10px;
 }
 
 .units {
@@ -69,7 +88,7 @@ ul {
 }
 
 .buttomSection {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .active {

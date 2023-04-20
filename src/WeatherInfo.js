@@ -1,14 +1,15 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import FormattedDate from "./FormattedDate";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div>
         <div className="row firstSection">
-          <div className="col-4">
-            <WeatherIcon code={props.data.icon} size={52} />
+          <div className="col-4 icon">
+            <WeatherIcon code={props.data.icon} size={60} />
           </div>
           <div className="col-4 city-name">
             <h1 id="city">{props.data.city}</h1>
