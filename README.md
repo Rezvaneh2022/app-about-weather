@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+Hi there 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this project to practice working with API, Bootstrap and React.
+
+You can check it out here😊: 
+
+https://scintillating-profiterole-0c472a.netlify.app/
+
 
 ## Available Scripts
 
